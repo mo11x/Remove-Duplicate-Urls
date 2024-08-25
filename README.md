@@ -19,6 +19,24 @@ python deduplicate_subdomains.py -i input_file.txt -o output_file.txt
 python deduplicate_subdomains.py -i subdomains.txt -o unique_subdomains.txt
 ```
 
+## Input file 
+```Bash
+subdomain.example.com
+subdomain.example.com
+subdomain.example.com
+subdomain.example.com
+subdomain-2.example.com
+subdomain-2.example.com
+subdomain-3.example.com
+subdomain-3.example.com
+```
+## Output file 
+```Bash
+subdomain.example.com
+subdomain-2.example.com
+subdomain-3.example.com
+```
+
 ### License
 
 This project is licensed under the [MIT](https://opensource.org/license/MIT) License.   
